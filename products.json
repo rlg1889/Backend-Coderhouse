@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Producto Modificado",
+    "description": "Descripción actualizada",
+    "price": 250,
+    "thumbnail": "Nueva imagen",
+    "code": "abc123",
+    "stock": 30,
+    "id": 1
+  }
+]
