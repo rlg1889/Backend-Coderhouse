@@ -81,7 +81,7 @@ class ProductManager {
     }
 }
 
-const productManager = new ProductManager('products.json');
+const productManager = new ProductManager('./Desafio-2/products.json');
 
 productManager.addProduct('producto prueba', 'Este es un producto prueba', 200, 'Sin imagen', 'abc123', 25);
 productManager.addProduct('producto prueba 2', 'Otro producto prueba', 150, 'Imagen2', 'xyz456', 15);
