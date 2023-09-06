@@ -29,8 +29,7 @@ router.get("/products/:pid", async (req, res) => {
 
   
   router.delete("/products/:pid", async (req, res) => {
-    const id=parseInt(req.params.pid)
-    const deleteproduct = await manager.deleteProduct(id);
+    const deleteproduct = await manager.deleteProduct(req.params);
      res.json({ status: "success",deleteproduct });
   });
 
